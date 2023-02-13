@@ -3,6 +3,7 @@ body {
     margin :0px;
     background-color: #e6e6ff;
     color: whitesmoke;
+    box-sizing: border-box;
 }
 
 h1.digital {
