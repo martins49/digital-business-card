@@ -6,7 +6,7 @@ import likedin_Logo from "../images/3 likedin.jpg"
 const Info = () => {
     return (
         <div className="info">
-            <img src={myPicture} width="180px" height="180px" alt="" />
+            <img src={myPicture} className="my-Dp" width="180px" height="180px" alt="" />
             <h1 className="myName">Marto Busayo</h1>
             <p> Web Developer</p>
             <button className="email-btn"> <img src={email_Logo} width="20px" className=" " alt="" />    <a href="https://myaccount.google.com/" target="_blank" rel="noreferrer">Email</a> </button>

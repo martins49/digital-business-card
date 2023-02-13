@@ -7,12 +7,16 @@ import Footer from "./footer"
 const App = () => {
 
     return (
-        <div className="app-wrapper">
-            <div className="app-container">
-                <Info />
-                <About />
-                <Interest />
-                <Footer />
+        <div>
+           <h1 class="digital">Digital Business Card</h1>
+            <div className="app-wrapper">
+                <div className="app-container">
+                    <Info />
+                    <About />
+                    <Interest />
+                    <Footer />
+                </div>
+
             </div>
 
 
