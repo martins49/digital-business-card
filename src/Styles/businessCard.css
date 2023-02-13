@@ -1,0 +1,101 @@
+body {
+    /* text-align: center; */
+    background-color: #e6e6ff;
+    color: whitesmoke;
+}
+
+.digital {
+    text-align: center;
+    color: #404040;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.app-wrapper {
+    background-color: #404040;
+    height: auto;
+    width: 900px;
+    margin: auto;
+    border: 7px solid white;
+    border-radius: 10px;
+}
+
+.app-container {
+    background-color: #343333;
+    width: 600px;
+    margin: auto;
+    border-radius: 5px;
+    /* margin: 0px 200px ; */
+}
+
+.info {
+    text-align: center;
+}
+
+.info>img {
+    border-radius: 50%;
+}
+
+.info>h1 {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.info>button {
+    margin-right: 30px;
+    padding: 5px 19px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+
+.Likedin-btn {
+    background-color: rgb(31, 140, 194);
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.Likedin-btn:hover {
+    background-color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.email-btn {
+    border: 3px solid #e6e6ff;
+}
+
+.email-btn:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about {
+    padding: 0px 35px;
+}
+
+.about > h1 {
+    margin-bottom: -10px;
+}
+
+.interest {
+    padding: 0px 35px;
+}
+
+.interest>h1 {
+    margin-bottom: -10px;
+}
+
+.myfooter {
+    background-color: white;
+    padding: 20px;
+    background-color: #4b4a4a;
+    text-align: center;
+}
+
+.myfooter img {
+    padding: 0px 10px;
+    border-radius: 50%;
+}
