@@ -8,7 +8,8 @@ const App = () => {
 
     return (
         <div>
-           <h1 class="digital">Digital Business Card</h1>
+            <h1 className="digital">Digital Business Card</h1>
+
             <div className="app-wrapper">
                 <div className="app-container">
                     <Info />

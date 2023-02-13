@@ -1,14 +1,19 @@
 body {
     /* text-align: center; */
+    margin :0px;
     background-color: #e6e6ff;
     color: whitesmoke;
 }
 
-.digital {
+h1.digital {
     text-align: center;
+    display: flex;
+    justify-content: center;
     color: #404040;
     font-size: 45px;
     letter-spacing: 3px;
+    width: 100%;
+    min-width: 900px;
 }
 
 .app-wrapper {
@@ -19,13 +24,11 @@ body {
     border: 7px solid white;
     border-radius: 10px;
 }
-
 .app-container {
     background-color: #343333;
     width: 600px;
     margin: auto;
     border-radius: 5px;
-    /* margin: 0px 200px ; */
 }
 
 .info {
@@ -41,7 +44,7 @@ body {
     padding-bottom: 0px;
 }
 .info p {
-  
+
     font-size: 22px;
 }
 .info>button {
@@ -112,27 +115,28 @@ a {
 }
 
 @media screen and (min-width: 425px) {
-    .digital {
+    h1.digital {
         font-size: 30px;
         display: inline-block;
-        width: 913px;
+        /* width: 913px; */
     }
 }
 
 @media screen and (min-width:374px) {
     .digital {
-       
+
         display: inline-block;
-        width: 913px;
+        /* width: 913px; */
     }
-
 }
+        
+/*iphone XR */
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 415px) {
     .digital {
         font-size: 40px;
         display: inline-block;
-        width: 913px;
+        /* width: 913px; */
     }
 
     .app-wrapper {
@@ -172,10 +176,7 @@ a {
         margin-right: 50px;
 
     }
-
     button.Likedin-btn {
         padding: 10px 20px;
     }
-
-
 }
